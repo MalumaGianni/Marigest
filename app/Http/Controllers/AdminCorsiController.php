@@ -375,6 +375,7 @@ class AdminCorsiController extends Controller
           ->count('tipo_provvedimento');
         }
       }
+
             foreach($verbSport as $verbale){
                 $matricola = $verbale->matricola_allievo;
                 if ($allievo->matricola_militare == $matricola) {
